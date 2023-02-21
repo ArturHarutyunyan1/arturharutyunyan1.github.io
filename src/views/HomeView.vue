@@ -4,13 +4,9 @@
   </div>
 </template>
 <script>
-import HeaderComponent from "../components/HeaderComponent.vue";
+import HeaderComponent from "@/components/HeaderComponent.vue";
 export default {
   components: { HeaderComponent },
-  mounted() {
-    let htmlEl = document.documentElement;
-    htmlEl.setAttribute("theme", "light");
-  },
 };
 </script>
 <style>
