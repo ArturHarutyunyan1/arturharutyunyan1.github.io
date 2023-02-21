@@ -1,30 +1,16 @@
-<template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+<template class="a">
+  <div class="main">
+    <router-view></router-view>
+  </div>
 </template>
-
+<script>
+export default {
+  mounted() {
+    let htmlEl = document.documentElement;
+    htmlEl.setAttribute("theme", "light");
+  },
+};
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+@import "./assets/css/main.css";
 </style>
