@@ -3,7 +3,7 @@
     <div class="theme-switcher">
       <input type="checkbox" id="theme-switch" v-model="lightMode" />
       <label for="theme-switch">
-        <div class="inline">
+        <div class="inline nav-link">
           <font-awesome-icon v-if="lightMode" icon="fa-solid fa-moon" />
           <font-awesome-icon v-else icon="fa-solid fa-sun" />
         </div>

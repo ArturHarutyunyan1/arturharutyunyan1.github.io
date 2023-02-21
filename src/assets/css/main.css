@@ -1,81 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     transition: 1s cubic-bezier(1, 0, 0, 1);
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --fjalla: 'Fjalla One', sans-serif;
     --inter: 'Inter', sans-serif;
 }
 
-[theme="dark"]{
+[theme="dark"] {
     --background: hsl(0, 0%, 10%);
+    --menu-background: hsl(0, 0%, 100%);
     --text: hsl(0, 0%, 100%);
+    --menu-text: hsl(0, 0%, 10%);
     --url: hsl(208, 69%, 66%);
 }
 
-[theme="light"]{
+[theme="light"] {
     --background: hsl(0, 0%, 100%);
+    --menu-background: hsl(0, 0%, 10%);
     --text: hsl(0, 0%, 10%);
+    --menu-text: hsl(0, 0%, 100%);
     --url: hsl(237, 71%, 42%);
 }
 
-body{
+body {
     background: var(--background);
     color: var(--text);
     font-family: var(--inter);
 }
 
-li{
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.main{
+.main {
     width: 90%;
     margin: auto;
 }
 
-header{
+header {
     width: 100%;
     padding: 25px 0;
 }
 
-.navbar{
+.navbar {
     width: 100%;
 }
 
-.logo{
+.logo {
     color: var(--text);
     font-size: 24px;
     line-height: 29px;
 }
 
-.nav-item{
+.nav-item {
     margin: 0 15px;
 }
 
-.nav-link{
+.nav-link {
     color: var(--text);
     font-size: 18px;
     line-height: 22px;
 }
 
+.hamburger {
+    display: none;
+}
+
 /* flexbox */
 
-.row{
+.row {
     display: flex;
 }
 
-.space-btw{
+.space-btw {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,3 +91,38 @@ header{
 
 
 /* flexbox */
+
+/* Media */
+
+@media (max-width: 500px) {
+    .nav-menu {
+        position: absolute;
+        top: -100%;
+        left: 0;
+        /* transform: translateX(-50%); */
+        width: 100%;
+        padding: 20px 0;
+        background: var(--menu-background);
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .nav-link {
+        color: var(--menu-text);
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .nav-menu.active {
+        top: 80px;
+    }
+}
+
+/* Media */
