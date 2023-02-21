@@ -49,6 +49,9 @@ export default {
 </script>
 
 <style scoped>
+svg {
+  transition: none;
+}
 input[type="checkbox"] {
   position: absolute;
   opacity: 0;

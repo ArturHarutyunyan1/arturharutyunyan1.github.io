@@ -8,10 +8,11 @@ import {
   faSun,
   faBars,
   faXmark,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faMoon, faSun, faBars, faXmark);
+library.add(faMoon, faSun, faBars, faXmark, faEnvelope);
 
 createApp(App)
   .use(store)

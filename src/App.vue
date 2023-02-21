@@ -16,7 +16,9 @@ export default {
   mounted() {
     document.onreadystatechange = () => {
       if (document.readyState == "complete") {
-        this.isLoading = false;
+        setTimeout(() => {
+          this.isLoading = false;
+        }, 2000);
       }
     };
   },

@@ -11,6 +11,9 @@
 :root {
     --fjalla: 'Fjalla One', sans-serif;
     --inter: 'Inter', sans-serif;
+    --name: linear-gradient(89.81deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
+    --get-in-touch-border: linear-gradient(to right, rgba(238,174,202,1) 0%, rgba(148,187,233,1)) 1;
+    --get-in-touch: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 [theme="dark"] {
@@ -41,6 +44,10 @@ li {
 
 a {
     text-decoration: none;
+}
+
+section{
+    min-height: 100vh;
 }
 
 .main {
@@ -89,8 +96,30 @@ header {
     align-items: center;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline{
+    display: inline-flex;
+    align-items: center;
+}
 
 /* flexbox */
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 /* Media */
 
