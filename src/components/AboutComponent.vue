@@ -17,7 +17,7 @@
           </li>
         </ul>
       </div>
-      <div class="row" style="margin: 0 -15px">
+      <div class="row buttons">
         <div class="row-item">
           <a href="mailto:arturhar@outlook.com">
             <button class="inline center gradient" id="mail">
@@ -158,5 +158,51 @@ button.center {
   border-style: solid;
   border-width: 0 4px 6px 4px;
   border-color: transparent transparent var(--text) transparent;
+}
+@media (max-width: 820px) {
+  .name {
+    font-size: 70px;
+  }
+  .about-me {
+    width: 100%;
+    font-size: 20px;
+  }
+  .working-tools {
+    width: 90%;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .center {
+    justify-content: center;
+    align-items: center;
+    float: unset;
+  }
+  .inline p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 625px) {
+  .im {
+    margin: 0;
+  }
+  .name {
+    font-size: 10vw;
+    line-height: 1.3;
+  }
+  .about-me {
+    font-size: 3.5vw;
+  }
+  .working-tools {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .buttons {
+    margin: 0;
+  }
 }
 </style>
