@@ -4,17 +4,19 @@
 * {
     margin: 0;
     padding: 0;
-    transition: 1s cubic-bezier(1, 0, 0, 1);
+    transition: 0.5s cubic-bezier(1, 0, 0, 1);
     box-sizing: border-box;
 }
 
 :root {
     --fjalla: 'Fjalla One', sans-serif;
     --inter: 'Inter', sans-serif;
-    --name: linear-gradient(89.81deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
-    --get-in-touch-border: linear-gradient(to right, rgba(238,174,202,1) 0%, rgba(148,187,233,1)) 1;
-    --get-in-touch: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    --name: linear-gradient(to right, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
+    --mail: linear-gradient(51.06deg, #9358F7 0.87%, #9259F7 7.31%, #8E5DF6 13.75%, #8862F5 20.19%, #806BF4 26.63%, #7575F2 33.07%, #6882F0 39.51%, #5990EE 45.95%, #4A9FEB 52.39%, #3BADE9 58.84%, #2EBAE7 65.28%, #23C4E5 71.72%, #1BCDE4 78.16%, #15D2E3 84.6%, #11D6E2 91.04%, #10D7E2 97.48%);
+    --upwork: linear-gradient(45.4deg, #F4426C 6.41%, #FBF2B1 98.99%);
+    --github: linear-gradient(132.33deg, #D24074 -0.67%, #6518B4 102.54%);
 }
+
 
 [theme="dark"] {
     --background: hsl(0, 0%, 10%);
@@ -46,7 +48,7 @@ a {
     text-decoration: none;
 }
 
-section{
+section {
     min-height: 100vh;
 }
 
@@ -96,13 +98,13 @@ header {
     align-items: center;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.inline{
+.inline {
     display: inline-flex;
     align-items: center;
 }
@@ -111,15 +113,17 @@ header {
 
 @keyframes gradient {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
+
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
+
     100% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-  }
+}
 
 /* Media */
 
