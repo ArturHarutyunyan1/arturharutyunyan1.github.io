@@ -111,8 +111,7 @@ button {
   margin: 20px;
   border-radius: 10px;
   border: none;
-  color: var(--text);
-  background: transparent;
+  color: white;
   cursor: pointer;
 }
 .name.gradient {
@@ -124,18 +123,21 @@ button {
   animation: gradient 10s ease infinite;
   background-size: 400% 400%;
 }
-button.gradient {
-  border: 3px solid;
-  user-select: none;
-}
+
 #mail {
-  border-image: var(--mail) 1;
+  background: var(--mail);
+  animation: gradient 7s linear infinite;
+  background-size: 400% 400%;
 }
 #upwork {
-  border-image: var(--upwork) 1;
+  background: var(--upwork);
+  animation: gradient 7s linear infinite;
+  background-size: 400% 400%;
 }
 #github {
-  border-image: var(--github) 1;
+  background: var(--github);
+  animation: gradient 7s linear infinite;
+  background-size: 400% 400%;
 }
 .center {
   float: left;
@@ -205,7 +207,7 @@ button.center {
   }
   button {
     width: 100%;
-    margin: 20px auto;
+    margin: 10px auto;
   }
   .buttons {
     width: 100%;
