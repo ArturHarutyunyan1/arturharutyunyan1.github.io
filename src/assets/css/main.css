@@ -131,9 +131,9 @@ header {
     .nav-menu {
         position: absolute;
         top: -100%;
-        left: 0;
-        /* transform: translateX(-50%); */
-        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
         padding: 20px 0;
         background: var(--menu-background);
         flex-direction: column;

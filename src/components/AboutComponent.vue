@@ -148,6 +148,9 @@ button.gradient {
 button.center {
   flex-direction: row;
 }
+.buttons {
+  margin: 0 -20px;
+}
 .triangle::before {
   content: "";
   display: inline-block;
@@ -159,7 +162,7 @@ button.center {
   border-width: 0 4px 6px 4px;
   border-color: transparent transparent var(--text) transparent;
 }
-@media (max-width: 820px) {
+@media (max-width: 880px) {
   .name {
     font-size: 70px;
   }
@@ -184,6 +187,9 @@ button.center {
 }
 
 @media (max-width: 625px) {
+  .about {
+    width: 100%;
+  }
   .im {
     margin: 0;
   }
@@ -202,6 +208,7 @@ button.center {
     margin: 20px auto;
   }
   .buttons {
+    width: 100%;
     margin: 0;
   }
 }
