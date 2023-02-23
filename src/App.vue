@@ -5,6 +5,7 @@
   <div class="main">
     <HeaderComponent />
     <AboutComponent />
+    <EducationComponent />
     <ProjectComponent />
   </div>
 </template>
@@ -12,12 +13,14 @@
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import AboutComponent from "@/components/AboutComponent.vue";
 import ProjectComponent from "@/components/ProjectComponent.vue";
+import EducationComponent from "@/components/EducationComponent.vue";
 import LoadingComponent from "@/components/LoadingComponent.vue";
 export default {
   components: {
     HeaderComponent,
     AboutComponent,
     ProjectComponent,
+    EducationComponent,
     LoadingComponent,
   },
   data() {

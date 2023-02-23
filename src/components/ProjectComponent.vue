@@ -1,7 +1,7 @@
 <template>
   <section class="projects center" id="projects">
     <div class="content">
-      <h1>Here is a showcase of some of the projects I have done</h1>
+      <p>FEATURED PROJECTS</p>
       <div class="row center">
         <div class="row-item" v-for="project in projects" :key="project.id">
           <CardComponent
@@ -35,8 +35,10 @@ export default {
 .projects {
   min-height: 100vh;
 }
-h1 {
-  text-align: center;
+p {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 90px;
 }
 .row {
   flex-flow: row wrap;
