@@ -1,5 +1,3 @@
-<!-- Eslint-disable -->
-
 <template class="a">
   <LoadingComponent v-if="isLoading" />
   <div class="main">
@@ -17,6 +15,8 @@ import EducationComponent from "@/components/EducationComponent.vue";
 import ProjectComponent from "@/components/ProjectComponent.vue";
 import ContactComponent from "@/components/ContactComponent.vue";
 import LoadingComponent from "@/components/LoadingComponent.vue";
+import { onMounted } from "vue";
+import AOS from "aos";
 export default {
   components: {
     HeaderComponent,
@@ -32,13 +32,14 @@ export default {
     };
   },
   mounted() {
-    document.onreadystatechange = () => {
-      if (document.readyState == "complete") {
-        setTimeout(() => {
-          this.isLoading = false;
-        }, 2000);
-      }
-    };
+    window.addEventListener("load", () => {
+      this.isLoading = false;
+    });
+  },
+  setup() {
+    onMounted(() => {
+      AOS.init();
+    });
   },
 };
 </script>

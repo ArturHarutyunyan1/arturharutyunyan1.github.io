@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card" data-aos="fade-down" :data-aos-delay="delay">
     <div class="content">
       <div class="space-btw">
         <div class="item">
@@ -39,6 +39,7 @@ export default {
     title: { required: true, type: String },
     description: { required: true, type: String },
     tools: { required: true, type: Array },
+    delay: { required: true, type: Number },
   },
 };
 </script>

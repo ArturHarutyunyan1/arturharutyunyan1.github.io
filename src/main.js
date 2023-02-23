@@ -1,6 +1,8 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import store from "./store";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faMoon,
@@ -27,5 +29,6 @@ library.add(
 
 createApp(App)
   .use(store)
+  .use(Aos)
   .component("font-awesome-icon", FontAwesomeIcon)
   .mount("#app");

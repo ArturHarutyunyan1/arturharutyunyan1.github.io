@@ -1,12 +1,14 @@
 <template>
   <section class="contact center" id="contact">
     <div class="content center">
-      <h1 class="gradient">Get In Touch</h1>
-      <p class="text">
+      <h1 class="gradient" data-aos="fade-down" data-aos-delay="100">
+        Get In Touch
+      </h1>
+      <p class="text" data-aos="fade-down" data-aos-delay="200">
         I'm always looking for new opportunities, my inbox is always open if you
         have a question or a job offer or just want to say hello.
       </p>
-      <div class="btn">
+      <div class="btn" data-aos="fade-down" data-aos-delay="300">
         <a href="mailto:arturhar@outlook.com">
           <button class="inline center gradient" id="mail">
             <font-awesome-icon icon="fa-solid fa-envelope" />

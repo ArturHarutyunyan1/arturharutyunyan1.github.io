@@ -1,24 +1,26 @@
 <template>
   <section class="about center" id="about">
     <div class="content">
-      <p class="im">Hey, I'm</p>
-      <h1 class="name gradient">Artur Harutyunyan</h1>
-      <p class="about-me">
+      <p class="im" data-aos="fade-down" data-aos-delay="700">Hey, I'm</p>
+      <h1 class="name gradient" data-aos="fade-down" data-aos-delay="800">
+        Artur Harutyunyan
+      </h1>
+      <p class="about-me" data-aos="fade-down" data-aos-delay="900">
         I am a self-taught web developer. I enjoy creating things that live on
         the web, whether it's a website, a web app, or something else. During my
         projects I have been able to gain valuable experience and valuable
         knowledge from all different fields.
       </p>
-      <div class="row working-tools">
+      <div class="row working-tools" data-aos="fade-down" data-aos-delay="1000">
         <p>Here are some tools I've been working with</p>
         <ul class="row-item" v-for="tool in tools" :key="tool.id">
-          <li class="triangle">
+          <li class="triangle" data-aos="fade-down" data-aos-delay="1100">
             {{ tool.name }}
           </li>
         </ul>
       </div>
       <div class="row buttons">
-        <div class="row-item">
+        <div class="row-item" data-aos="fade-down" data-aos-delay="1200">
           <a
             href="https://www.upwork.com/freelancers/~0142ed6ab96f45439e"
             target="blank"
@@ -39,7 +41,7 @@
             </button>
           </a>
         </div>
-        <div class="row-item">
+        <div class="row-item" data-aos="fade-down" data-aos-delay="1300">
           <a href="https://github.com/ArturHarutyunyan1" target="blank">
             <button class="inline center gradient" id="github">
               <font-awesome-icon icon="fa-brands fa-github" />

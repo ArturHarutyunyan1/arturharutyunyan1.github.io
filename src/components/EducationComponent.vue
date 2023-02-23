@@ -2,15 +2,21 @@
   <section class="education center">
     <div class="row">
       <div class="row-item">
-        <p>EDUCATION</p>
+        <p data-aos="fade-down" data-aos-delay="100">EDUCATION</p>
       </div>
       <div class="row-item">
         <div class="col">
           <div class="space-btw">
-            <h1 class="title">TUMO Center for Creative Technologies</h1>
-            <p class="date">2017 / 2022</p>
+            <h1 class="title" data-aos="fade-down" data-aos-delay="200">
+              TUMO Center for Creative Technologies
+            </h1>
+            <p class="date" data-aos="fade-down" data-aos-delay="300">
+              2017 / 2022
+            </p>
           </div>
-          <p class="location">Yerevan,Armenia</p>
+          <p class="location" data-aos="fade-down" data-aos-delay="400">
+            Yerevan,Armenia
+          </p>
         </div>
       </div>
     </div>

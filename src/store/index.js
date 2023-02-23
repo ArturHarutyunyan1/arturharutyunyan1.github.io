@@ -53,6 +53,7 @@ export default createStore({
         liveUrl: "https://arturharutyunyan1.github.io/rest-countries/",
         projectUrl: "https://github.com/ArturHarutyunyan1/rest-countries",
         tools: ["Vue.js", "CSS", "REST Countries API"],
+        delay: 200,
       },
       {
         id: 2,
@@ -62,6 +63,7 @@ export default createStore({
         liveUrl: "https://arturharutyunyan1.github.io/ip-address-tracker/",
         projectUrl: "https://github.com/ArturHarutyunyan1/ip-address-tracker",
         tools: ["HTML", "CSS", "JavaScript", "IP Geolocation API", "Leaflet"],
+        delay: 300,
       },
       {
         id: 3,
@@ -71,6 +73,7 @@ export default createStore({
         liveUrl: "https://github-user-finder-arturharutyunyan1.vercel.app",
         projectUrl: "https://github.com/ArturHarutyunyan1/github-user-finder",
         tools: ["Vue.js", "CSS", "Github API"],
+        delay: 400,
       },
       {
         id: 4,
@@ -79,6 +82,7 @@ export default createStore({
         liveUrl: "https://tic-tac-toe-arturharutyunyan.vercel.app",
         projectUrl: "https://github.com/ArturHarutyunyan1/tic-tac-toe",
         tools: ["HTML", "CSS", "JavaScript"],
+        delay: 500,
       },
       {
         id: 5,
@@ -88,6 +92,7 @@ export default createStore({
         liveUrl: "https://pr-tip-calculator.vercel.app",
         projectUrl: "https://github.com/ArturHarutyunyan1/tip-calculator",
         tools: ["Vue.js", "CSS"],
+        delay: 600,
       },
       {
         id: 6,
@@ -97,6 +102,7 @@ export default createStore({
         liveUrl: "https://pr-todo-app.vercel.app",
         projectUrl: "https://github.com/ArturHarutyunyan1/todo-app",
         tools: ["Vue.js", "CSS"],
+        delay: 700,
       },
     ],
   },
