@@ -1,16 +1,16 @@
 <template>
   <header>
     <nav v class="navbar space-btw">
-      <router-link class="logo" to="/">AH.</router-link>
+      <a href="/" class="logo" to="/">AH.</a>
       <ul class="nav-menu space-btw">
         <li class="nav-item">
-          <router-link class="nav-link" to="/projects">Projects</router-link>
+          <a href="#about" class="nav-link">About</a>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/">Resume</router-link>
+          <a href="#projects" class="nav-link">Projects</a>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/">Contact</router-link>
+          <a href="#contact" class="nav-link">Contact</a>
         </li>
         <li class="nav-item">
           <ThemeSwitcher />

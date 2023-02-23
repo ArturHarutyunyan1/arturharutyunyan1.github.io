@@ -40,10 +40,23 @@
     --card-text: hsl(260, 15%, 32%);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--background);
     color: var(--text);
     font-family: var(--inter);
+}
+
+::selection{
+    background: var(--card-color);
+    color: white;    
+}
+
+.name::selection{
+    background: transparent;
 }
 
 li {
@@ -56,6 +69,7 @@ a {
 
 section {
     min-height: 100vh;
+    border-bottom: 1px solid var(--text);
 }
 
 .main {
@@ -66,6 +80,7 @@ section {
 header {
     width: 100%;
     padding: 25px 0;
+    border-bottom: 1px solid var(--text);
 }
 
 .navbar {
@@ -143,6 +158,7 @@ header {
         padding: 20px 0;
         background: var(--menu-background);
         flex-direction: column;
+        visibility: hidden;
     }
 
     .nav-item {
@@ -161,6 +177,7 @@ header {
 
     .nav-menu.active {
         top: 80px;
+        visibility: visible;
     }
 }
 

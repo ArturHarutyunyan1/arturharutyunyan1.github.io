@@ -1,15 +1,23 @@
 <template class="a">
+  <LoadingComponent v-if="isLoading" />
   <div class="main">
     <HeaderComponent />
-    <LoadingComponent v-if="isLoading" />
-    <router-view></router-view>
+    <AboutComponent />
+    <ProjectComponent />
   </div>
 </template>
 <script>
-import HeaderComponent from "./components/HeaderComponent.vue";
+import HeaderComponent from "@/components/HeaderComponent.vue";
+import AboutComponent from "@/components/AboutComponent.vue";
+import ProjectComponent from "@/components/ProjectComponent.vue";
 import LoadingComponent from "@/components/LoadingComponent.vue";
 export default {
-  components: { LoadingComponent, HeaderComponent },
+  components: {
+    HeaderComponent,
+    AboutComponent,
+    ProjectComponent,
+    LoadingComponent,
+  },
   data() {
     return {
       isLoading: true,

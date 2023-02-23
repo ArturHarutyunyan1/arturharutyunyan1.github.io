@@ -1,5 +1,5 @@
 <template>
-  <section class="about center">
+  <section class="about center" id="about">
     <div class="content">
       <p class="im">Hey, I'm</p>
       <h1 class="name gradient">Artur Harutyunyan</h1>
@@ -74,7 +74,7 @@ export default {
 
 <style scope>
 .about {
-  min-height: 85vh;
+  min-height: 100vh;
 }
 .im {
   margin: 0 10px;

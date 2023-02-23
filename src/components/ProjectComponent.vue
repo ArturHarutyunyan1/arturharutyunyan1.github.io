@@ -1,5 +1,5 @@
 <template>
-  <section class="projects center">
+  <section class="projects center" id="projects">
     <div class="content">
       <h1>Here is a showcase of some of the projects I have done</h1>
       <div class="row center">
@@ -33,14 +33,14 @@ export default {
 
 <style scoped>
 .projects {
-  min-height: 80vh;
+  min-height: 100vh;
 }
 h1 {
   text-align: center;
 }
 .row {
   flex-flow: row wrap;
-  margin: 15px 0;
+  margin: 50px 0;
 }
 @media (max-width: 375px) {
   .row-item {
