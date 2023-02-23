@@ -1,3 +1,5 @@
+<!-- Eslint-disable -->
+
 <template class="a">
   <LoadingComponent v-if="isLoading" />
   <div class="main">
