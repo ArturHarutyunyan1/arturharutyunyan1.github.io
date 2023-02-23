@@ -94,4 +94,12 @@ export default {
 .url:hover {
   color: var(--card-color);
 }
+@media (max-width: 375px) {
+  .card {
+    width: 90%;
+  }
+  .tool {
+    font-size: 10px;
+  }
+}
 </style>

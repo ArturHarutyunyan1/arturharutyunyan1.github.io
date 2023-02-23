@@ -42,4 +42,9 @@ h1 {
   flex-flow: row wrap;
   margin: 15px 0;
 }
+@media (max-width: 375px) {
+  .row-item {
+    width: 100%;
+  }
+}
 </style>
