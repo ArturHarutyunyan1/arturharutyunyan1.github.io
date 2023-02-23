@@ -1,1 +1,0 @@
-# This is [Artur Harutyunyan's](https://arturharutyunyan1.github.io) Portfolio Website
