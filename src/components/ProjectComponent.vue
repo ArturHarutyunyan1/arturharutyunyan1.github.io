@@ -49,4 +49,14 @@ p {
     width: 100%;
   }
 }
+@media (max-width: 1234px) {
+  p {
+    margin: 35px 90px;
+  }
+}
+@media (max-width: 820px) {
+  p {
+    text-align: center;
+  }
+}
 </style>

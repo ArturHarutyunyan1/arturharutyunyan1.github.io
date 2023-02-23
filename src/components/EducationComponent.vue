@@ -49,4 +49,32 @@ p {
   margin: 5px 0;
   color: royalblue;
 }
+@media (max-width: 1031px) {
+  .space-btw {
+    flex-direction: column;
+    /* float: left; */
+  }
+  .date {
+    width: 100%;
+    position: static;
+    left: 0;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 820px) {
+  .row {
+    flex-direction: column;
+    margin: 25px 0;
+  }
+  .space-btw {
+    text-align: center;
+  }
+  .col {
+    margin: 25px 0;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
 </style>

@@ -96,7 +96,8 @@ export default {
 }
 @media (max-width: 375px) {
   .card {
-    width: 90%;
+    width: 100%;
+    margin-left: 0;
   }
   .tool {
     font-size: 10px;
