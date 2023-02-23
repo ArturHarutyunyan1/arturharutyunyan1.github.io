@@ -24,6 +24,9 @@
     --text: hsl(0, 0%, 100%);
     --menu-text: hsl(0, 0%, 10%);
     --url: hsl(208, 69%, 66%);
+    --card-color: hsl(168, 71%, 62%);
+    --card-background: hsl(218, 58%, 16%);
+    --card-text: hsl(226, 70%, 88%);
 }
 
 [theme="light"] {
@@ -32,6 +35,9 @@
     --text: hsl(0, 0%, 10%);
     --menu-text: hsl(0, 0%, 100%);
     --url: hsl(237, 71%, 42%);
+    --card-color: hsl(272, 35%, 39%);
+    --card-background: hsl(33, 53%, 93%);
+    --card-text: hsl(260, 15%, 32%);
 }
 
 body {

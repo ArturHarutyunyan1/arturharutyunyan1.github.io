@@ -4,7 +4,7 @@
       <router-link class="logo" to="/">AH.</router-link>
       <ul class="nav-menu space-btw">
         <li class="nav-item">
-          <router-link class="nav-link" to="/">Projects</router-link>
+          <router-link class="nav-link" to="/projects">Projects</router-link>
         </li>
         <li class="nav-item">
           <router-link class="nav-link" to="/">Resume</router-link>

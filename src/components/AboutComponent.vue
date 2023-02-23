@@ -74,7 +74,7 @@ export default {
 
 <style scope>
 .about {
-  min-height: 90vh;
+  min-height: 85vh;
 }
 .im {
   margin: 0 10px;
