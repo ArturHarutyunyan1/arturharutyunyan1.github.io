@@ -6,42 +6,52 @@ export default createStore({
       {
         id: 1,
         name: "HTML",
+        delay: 1100,
       },
       {
         id: 2,
         name: "CSS",
+        delay: 1200,
       },
       {
         id: 3,
         name: "JavaScript",
+        delay: 1300,
       },
       {
         id: 4,
         name: "Vue.js",
+        delay: 1400,
       },
       {
         id: 5,
         name: "PHP",
+        delay: 1500,
       },
       {
         id: 6,
         name: "WordPress",
+        delay: 1600,
       },
       {
         id: 7,
         name: "SQL",
+        delay: 1700,
       },
       {
         id: 8,
         name: "MySQL",
+        delay: 1800,
       },
       {
         id: 9,
         name: "Git",
+        delay: 1900,
       },
       {
         id: 10,
         name: "Figma",
+        delay: 2000,
       },
     ],
     projects: [

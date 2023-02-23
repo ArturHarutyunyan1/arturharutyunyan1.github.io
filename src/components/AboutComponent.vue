@@ -11,16 +11,16 @@
         projects I have been able to gain valuable experience and valuable
         knowledge from all different fields.
       </p>
-      <div class="row working-tools" data-aos="fade-down" data-aos-delay="1000">
-        <p>Here are some tools I've been working with</p>
+      <div class="row working-tools">
+        <p data-aos="fade-down" data-aos-delay="1000">
+          Here are some tools I've been working with
+        </p>
         <ul class="row-item" v-for="tool in tools" :key="tool.id">
-          <li class="triangle" data-aos="fade-down" data-aos-delay="1100">
-            {{ tool.name }}
-          </li>
+          <ToolComponent :name="tool.name" :delay="tool.delay" />
         </ul>
       </div>
       <div class="row buttons">
-        <div class="row-item" data-aos="fade-down" data-aos-delay="1200">
+        <div class="row-item" data-aos="fade-down" data-aos-delay="2100">
           <a
             href="https://www.upwork.com/freelancers/~0142ed6ab96f45439e"
             target="blank"
@@ -41,7 +41,7 @@
             </button>
           </a>
         </div>
-        <div class="row-item" data-aos="fade-down" data-aos-delay="1300">
+        <div class="row-item" data-aos="fade-down" data-aos-delay="2200">
           <a href="https://github.com/ArturHarutyunyan1" target="blank">
             <button class="inline center gradient" id="github">
               <font-awesome-icon icon="fa-brands fa-github" />
@@ -56,7 +56,9 @@
 
 <script>
 import { mapState } from "vuex";
+import ToolComponent from "./ToolComponent.vue";
 export default {
+  components: { ToolComponent },
   data() {
     return {};
   },
