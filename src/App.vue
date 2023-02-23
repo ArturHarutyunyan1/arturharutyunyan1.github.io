@@ -7,20 +7,23 @@
     <AboutComponent />
     <EducationComponent />
     <ProjectComponent />
+    <ContactComponent />
   </div>
 </template>
 <script>
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import AboutComponent from "@/components/AboutComponent.vue";
-import ProjectComponent from "@/components/ProjectComponent.vue";
 import EducationComponent from "@/components/EducationComponent.vue";
+import ProjectComponent from "@/components/ProjectComponent.vue";
+import ContactComponent from "@/components/ContactComponent.vue";
 import LoadingComponent from "@/components/LoadingComponent.vue";
 export default {
   components: {
     HeaderComponent,
     AboutComponent,
-    ProjectComponent,
     EducationComponent,
+    ProjectComponent,
+    ContactComponent,
     LoadingComponent,
   },
   data() {

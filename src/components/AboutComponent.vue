@@ -19,14 +19,6 @@
       </div>
       <div class="row buttons">
         <div class="row-item">
-          <a href="mailto:arturhar@outlook.com">
-            <button class="inline center gradient" id="mail">
-              <font-awesome-icon icon="fa-solid fa-envelope" />
-              <p>Get in touch</p>
-            </button>
-          </a>
-        </div>
-        <div class="row-item">
           <a
             href="https://www.upwork.com/freelancers/~0142ed6ab96f45439e"
             target="blank"
